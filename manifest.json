@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Narrows",
+  "version": "1.0",
+  "description": "Increase readability to wide pages by adding some margins to narrow the page.",
+  "icons": {
+    "48": "icons/narrows-48.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/narrows-48.png"
+    }
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["narrows.js"]
+  }
+}
